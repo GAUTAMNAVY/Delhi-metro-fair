@@ -6,8 +6,6 @@
 #include <unordered_map>
 #include <algorithm>
 using namespace std;
-
-
 struct Station {
     string name;
     map<Station*, int> neighbors;
