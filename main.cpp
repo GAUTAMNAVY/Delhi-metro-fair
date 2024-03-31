@@ -10,9 +10,6 @@ struct Station {
     string name;
     map<Station*, int> neighbors;
 };
-
-
-
 struct HeapNode {
     Station* station;
     int distance;
