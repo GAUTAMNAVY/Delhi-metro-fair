@@ -12,6 +12,7 @@ struct Station {
 };
 
 
+
 struct HeapNode {
     Station* station;
     int distance;
