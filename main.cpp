@@ -13,7 +13,6 @@ struct Station {
 struct HeapNode {
     Station* station;
     int distance;
-
     bool operator>(const HeapNode& other) const {
         return distance > other.distance;
     }
