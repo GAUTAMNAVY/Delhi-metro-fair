@@ -17,7 +17,6 @@ struct HeapNode {
         return distance > other.distance;
     }
 };
-
 // Binary Search Tree for organizing stations
 class StationBST {
 public:
