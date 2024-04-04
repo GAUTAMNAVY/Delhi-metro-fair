@@ -49,7 +49,6 @@ public:
         } else if (station->name > root->station->name) {
             root->right = insertRec(root->right, station);
         }
-
         return root;
     }
 
