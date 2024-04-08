@@ -69,7 +69,6 @@ public:
         stationHashTable[name] = newStation;
         stationBST.insert(newStation);
     }
-
     void addConnection(const string& station1, const string& station2, int distance) {
         Station* s1 = findStation(station1);
         Station* s2 = findStation(station2);
