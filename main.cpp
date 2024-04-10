@@ -36,7 +36,6 @@ public:
     };
 
     TreeNode* root;
-
     TreeNode* insertRec(TreeNode* root, Station* station) {
         if (root == nullptr) {
             return new TreeNode(station);
