@@ -27,7 +27,6 @@ public:
     void inorder() {
         inorderRec(root);
     }
-
     struct TreeNode {
         Station* station;
         TreeNode* left;
