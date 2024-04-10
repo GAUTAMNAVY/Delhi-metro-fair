@@ -28,7 +28,6 @@ public:
         inorderRec(root);
     }
 
-
     struct TreeNode {
         Station* station;
         TreeNode* left;
