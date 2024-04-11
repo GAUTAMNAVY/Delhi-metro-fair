@@ -9,7 +9,6 @@ using namespace std;
 struct Station {
     string name;
     map<Station*, int> neighbors;
-
 };
 struct HeapNode {
     Station* station;
